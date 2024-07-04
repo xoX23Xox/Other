@@ -30,7 +30,7 @@ def x(tetew):
    
    return str(ipt)
 
-def aox(script,target_file="target.txt"):
+def aox(script,target_file="liste.txt"):
    op = open(script,"r").read()
    with open(target_file, "r") as target:
       target = target.readlines()
